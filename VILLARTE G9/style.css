@@ -1,0 +1,118 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body { 
+    background-color: #ffffff; 
+    color: #333; 
+}
+
+/* Navigation Bar */
+.navbar { 
+    background-color: #3B4AFA; /* Inspired Blue */ 
+    padding: 15px 0; 
+}
+
+.navbar ul { 
+    list-style: none;
+    text-align: center;
+}
+
+.navbar ul li { 
+    display: inline-block; 
+    margin: 0 25px; 
+}
+
+.navbar ul li a { 
+    color: white; 
+    text-decoration: none; 
+    font-weight: bold; 
+    font-size: 18px;
+    padding: 5px 10px;
+    transition: 0.3s; 
+}
+
+.navbar ul li a:hover { 
+    background-color: #2C2C2C;
+    border-radius: 5px;
+}
+
+/* Header */
+.header { 
+    background-color: #2C2C2C; 
+    color: white; 
+    text-align: center; 
+    padding: 80px 20px; 
+}
+
+.header h1 { 
+    font-size: 40px; 
+    margin-bottom: 10px; 
+}
+
+/* Picture Section */
+.picture-section { 
+    background-color: #FFD73A; /* Yellow Highlight */ 
+    text-align: center; 
+    padding: 50px 0; 
+}
+
+.profile-img { 
+    width: 250px; /* Decent Size */
+    height: 250px; 
+    object-fit: cover; 
+    border-radius: 50%; /* Circle style */ 
+    border: 5px solid white; 
+}
+
+/* About Section */
+.about-section { 
+    background-color: #3B4AFA; 
+    color: white; 
+    padding: 50px 20px; 
+    text-align: center; 
+}
+
+/* Contact Section */
+.contact-section { 
+    background-color: #FFFFFF; 
+    color: #333; 
+    padding: 50px 20px; 
+    text-align: center; 
+}
+
+/* CTA Section */
+.cta-section { 
+    background-color: #2C2C2C; 
+    color: white; 
+    text-align: center; 
+    padding: 60px 20px; 
+}
+
+.cta-btn { 
+    display: inline-block; 
+    background-color: #FFD73A; 
+    color: #2C2C2C; 
+    padding: 12px 25px; 
+    text-decoration: none; 
+    border-radius: 5px; 
+    font-weight: bold; 
+    transition: 0.3s; 
+}
+
+.cta-btn:hover { 
+    background-color: #FFC300; 
+}
+
+/* Footer */
+#footer { 
+    background-color: #3B4AFA; 
+    color: white; 
+    text-align: center; 
+    padding: 20px; 
+    font-size: 14px; 
+}
